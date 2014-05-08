@@ -206,3 +206,7 @@ body {
 .calc-button.point {
 }
 
+.flex300 {
+    flex-basis: 300%
+}
+

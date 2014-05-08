@@ -131,7 +131,7 @@ body {
 }
 
 .button-column {
-  display: flex;
+  display: -webkit-flex;
   -webkit-flex-direction: column;
   -webkit-flex-wrap: nowrap;
   -webkit-flex: 1 1 100%;
@@ -139,8 +139,8 @@ body {
 
 .calc-button {
   display: -webkit-inline-flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-justify-content: center;
   font-size: 16px;
   cursor: pointer;
   text-align: center;
@@ -206,3 +206,6 @@ body {
 .calc-button.point {
 }
 
+.flex300 {
+    -webkit-flex-basis: 300%
+}
